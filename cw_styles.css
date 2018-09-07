@@ -14,7 +14,6 @@
    Filename: cw_styles.css
 
 */
-
 /* Basic formatting for page, set background colors for browser and set up the appearance of the footer. */
 /* Structural Styles */
 html {
@@ -51,7 +50,6 @@ header>h1>span {
     color: rgba(255, 255, 255, 0.4);
 }
 
-
 h1,
 h2 {
     font-weight: normal;
@@ -82,7 +80,6 @@ nav>h1 {
     text-align: center;
 }
 
-
 /* Modified appearance of course outline through use of id. Set up hover events for outline links. */
 /* Outline Styles */
 nav#outline {
@@ -96,14 +93,16 @@ nav#outline ol {
     list-style-type: upper-roman;
 }
 
-nav#outline ol a:visited, nav#outline ol a {
+nav#outline ol a:visited,
+nav#outline ol a {
     line-height: 2em;
     margin: 0 5px;
     list-style-type: upper-roman;
     color: rgb(101, 101, 101);
 }
 
-nav#outline ol a:hover, nav#outline ol a:active {
+nav#outline ol a:hover,
+nav#outline ol a:active {
     color: rgb(97, 97, 211);
     text-decoration: none;
 }
@@ -116,7 +115,6 @@ nav#outline ol ol {
 
 /* Modified section background color and section h1 padding and font size. */
 /* Section Styles */
-
 section {
     background-color: rgb(220, 220, 220);
 }
@@ -141,13 +139,12 @@ article h2 {
     font-size: 1.4em;
 }
 
-article::first-letter {
+article p:first-of-type::first-letter {
     font-size: 2em;
 }
 
 /* Modified aside font size, and aligned aside header. */
 /* Aside Styles */
-
 aside {
     font-size: .9em;
 }
